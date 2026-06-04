@@ -1,18 +1,13 @@
-def calculate_trade_score(
-    price_above_vwap,
-    adx,
-    supertrend
-):
+def calculate_trade_score(adx, supertrend):
 
     score = 0
 
-    if price_above_vwap:
-        score += 40
-
+    # ADX Score
     if adx > 25:
-        score += 30
+        score += 50
 
+    # Supertrend Score
     if supertrend:
-        score += 30
+        score += 50
 
     return score

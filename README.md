@@ -1,62 +1,112 @@
 # Market Oracle AI
 
-AI-powered trading intelligence platform for NIFTY and F&O markets.
+An AI-powered stock market and NIFTY analysis platform built using Python and Streamlit.
 
-## Vision
+## Features
 
-Build an intelligent market decision system that helps traders:
+* Live NIFTY Market Data
+* ATR (Average True Range)
+* ADX (Trend Strength Analysis)
+* Supertrend-Based Direction Detection
+* Trade Score Engine
+* Confidence Scoring
+* Action Recommendation Engine
 
-- Identify high-probability opportunities
-- Detect trend reversals
-- Improve entry timing
-- Improve exit timing
-- Reduce bad trades
-- Protect capital
+## Current Output
 
-## Planned Features
+* NIFTY Current Price
+* ATR
+* ADX
+* Signal (BUY / SELL)
+* Trade Score
+* Confidence Level
+* Action Recommendation
 
-### Market Scanner
-- NIFTY analysis
-- Market strength detection
-- Opportunity ranking
+## Technology Stack
 
-### Technical Intelligence
-- VWAP
-- ATR
-- ADX
-- Supertrend
-- RSI
+* Python
+* Streamlit
+* Pandas
+* yFinance
+* TA-Lib / ta
 
-### Options Intelligence
-- PCR
-- Max Pain
-- OI Change Analysis
-- Put Writing Detection
-- Call Writing Detection
+## Roadmap
 
-### AI Engine
-- XGBoost
-- LightGBM
-- Ensemble Models
+### Phase 1
 
-### Risk Management
-- Position sizing
-- Stop loss engine
-- Profit protection
+* Live Market Dashboard ✅
+* ATR Integration ✅
+* ADX Integration ✅
+* Signal Engine ✅
+* Trade Score Engine ✅
 
-### Reversal Detection
-- Trend weakening alerts
-- Exit recommendations
+### Phase 2
 
-## Tech Stack
+* Entry Engine
+* Exit Engine
+* Reversal Detection
+* Enhanced Dashboard
 
-- Python
-- Streamlit
-- Pandas
-- Plotly
-- XGBoost
-- SQLite
+### Phase 3
 
-## Status
+* Options Chain Analysis
+* PCR Analysis
+* Max Pain
+* Open Interest Analytics
 
-Phase 1 Development Started
+## Completed Features
+
+✅ Live NIFTY Data
+
+✅ ATR Indicator
+
+✅ ADX Indicator
+
+✅ Supertrend Indicator
+
+✅ Signal Engine
+
+✅ Entry Engine
+
+✅ Exit Engine
+
+✅ Reversal Engine
+
+✅ Trade Score
+
+✅ Confidence Analysis
+
+✅ Entry Quality Analysis
+
+✅ Trend Strength Analysis
+
+✅ Market Status Detection
+
+✅ Trading Verdict
+
+✅ PCR Foundation
+
+✅ AI Market Summary
+
+## Future Roadmap
+
+### Phase 4
+
+* Real Options Chain Data
+* Put Open Interest (OI)
+* Call Open Interest (OI)
+* Put Call Ratio (PCR)
+* Market Sentiment Analysis
+
+### Phase 5
+
+* Interactive Price Charts
+* Backtesting Engine
+* Trade History
+* Performance Metrics
+
+### Phase 6
+
+* Machine Learning Prediction Models
+* AI Trade Recommendations
+* Risk Management Engine

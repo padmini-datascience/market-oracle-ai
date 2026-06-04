@@ -1,19 +1,18 @@
-def generate_exit_signal(
-    entry_price,
-    current_price,
-    atr
-):
+def generate_exit_signal(data):
 
-    profit = current_price - entry_price
+    latest = data.iloc[-1]
 
-    if profit >= atr:
+    if (
+        latest['ADX'] < 20
+        or latest['Supertrend'] == False
+    ):
 
         return {
-            "action": "BOOK_PARTIAL_PROFIT",
-            "message": "Book 50% and trail remaining position"
+            "signal": "EXIT",
+            "confidence": "Medium"
         }
 
     return {
-        "action": "HOLD",
-        "message": "Trend still active"
+        "signal": "HOLD",
+        "confidence": "High"
     }
