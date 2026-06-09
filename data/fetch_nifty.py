@@ -5,8 +5,8 @@ def get_nifty_data():
 
     data = yf.download(
         "^NSEI",
-        period="5d",
-        interval="5m",
+        period="1d",
+        interval="1m",
         auto_adjust=True
     )
 

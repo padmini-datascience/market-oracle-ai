@@ -110,3 +110,10 @@ An AI-powered stock market and NIFTY analysis platform built using Python and St
 * Machine Learning Prediction Models
 * AI Trade Recommendations
 * Risk Management Engine
+Version v0.5
+
+- Confidence Score
+- Trade Readiness
+- Signal Agreement
+- Decision Reason
+- Risk Management
